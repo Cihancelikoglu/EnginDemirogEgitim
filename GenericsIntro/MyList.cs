@@ -22,5 +22,14 @@ namespace GenericsIntro
             }
             items[items.Length - 1] = item;
         }
+
+        public int lenght
+        {
+            get { return items.Length; }
+        }
+        public T[] ArrayList
+        {
+            get { return items; }
+        }
     }
 }
